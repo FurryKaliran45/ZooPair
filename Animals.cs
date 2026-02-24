@@ -4,13 +4,16 @@ public class Animal
     private int _age;
     public string Name = _name;
     public int Age = _age;
-    public Animal(string name, int age)
+    private string _favoriteFood;
+    public Animal(string name, int age, string favouriteFood)
     {
         _name = name;
         _age = age;
+        _favoriteFood = favouriteFood;
     }
     public virtual void MakeSound()
     {
         Console.WriteLine("Животное издает звук");
     }
+    void favoriteFood();
 }
