@@ -1,7 +1,7 @@
 {
     static void Main()
     {
-        Console.WriteLine("Зоопарк открыт!");
+        Console.WriteLine("Добро пожаловать в зоопарк!");
 
         Zoo zoo = new Zoo();
         zoo.AddAnimal(new Mammal("Лев", 5, "мясо"));
